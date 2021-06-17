@@ -1,0 +1,51 @@
+.Nav-Bar{
+
+width: 100%;
+display: flex;
+align-items: center;
+padding: 0.4rem 0;
+justify-content: space-around;
+background-color: #ff7214;
+
+
+}
+
+.logo{
+
+    width: 50%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+.logo:hover{
+
+    color: rgb(66, 66, 66);
+    
+}
+
+.logo img{
+
+max-height: 35px;
+vertical-align: middle;
+
+}
+
+.Nav-Bar button{
+
+background-color: rgb(255, 179, 79);
+color: rgb(255, 255, 255);
+letter-spacing: 2px;
+font-size: large;
+font-weight: 600;
+border: none;
+border-radius: 3px;
+padding: 10px 16px;
+transition: all ease-in-out 200ms;
+
+}
+
+.Nav-Bar button:hover{
+
+    background-color: rgb(59, 59, 59);
+
+}

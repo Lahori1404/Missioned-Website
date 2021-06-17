@@ -1,0 +1,32 @@
+.section-classes{
+
+width: 100%;
+background-color: rgb(212, 239, 255);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.courses-section{
+
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 2rem 0;
+
+
+}
+
+.couses-palti{
+
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}

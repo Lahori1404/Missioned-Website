@@ -1,0 +1,27 @@
+
+.footer-card{
+
+max-width: 30%;
+display: flex;
+flex-direction: column;
+padding: 15px 15px;
+margin-bottom: 2rem;
+justify-content: left;
+align-items: center;
+
+}
+
+.footer-card ul{
+
+list-style: none;
+
+
+}
+
+.footer-card span{
+
+    padding: 5px 5px;
+    background-color: red;
+    color: white;
+
+}

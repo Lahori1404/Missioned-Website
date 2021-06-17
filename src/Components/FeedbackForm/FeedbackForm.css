@@ -1,0 +1,84 @@
+.FeedbackForm{
+
+    width: 100%;
+    padding: 2rem 0;
+
+}
+
+.FeedbackForm h2{
+
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.feedback__input{
+
+    width: 100%;
+    display: grid;
+   grid-template-columns: repeat(2,40%);
+grid-gap: 15px;
+   grid-template-areas: 
+   "name email"
+   "subject subject"
+   "Message Message"
+   "Message Message"
+   "submit submit";
+   justify-content: center;
+
+}
+
+.feedback__input input[type = 'text'],.feedback__input input[type = 'email']{
+
+    padding: 1rem;
+    border: 1px solid #aaaaaac7;
+    color: #aaaaaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+.feedback__input textarea{
+    padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #cccccccb;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.feedback__input input[type = 'submit']{
+    width: 100%;
+    background-color: #ff542a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.name{
+
+    grid-area: name;
+}
+
+.email{
+grid-area: email;
+
+}
+
+
+.subject{
+
+    grid-area: subject;
+
+}
+
+.Message{
+
+grid-area: Message;
+
+}
+
+.submitform{
+    grid-area: submit;
+}

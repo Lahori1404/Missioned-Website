@@ -1,0 +1,33 @@
+
+.main_offers{
+
+    width: 100%;
+    background-color: #eff6ff;
+    padding: 2rem 0;
+
+}
+
+.product_section{
+
+    width: 60%;
+    justify-content: center;
+}
+
+
+.product-title{
+
+    text-align: center;
+    
+    }
+    
+.products{
+    
+        width: 100%;
+        padding-left: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    
+
+

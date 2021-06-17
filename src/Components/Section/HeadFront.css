@@ -1,0 +1,143 @@
+.head-pallette{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    max-height: 50vh;
+    justify-content: center;
+    padding: 8rem 0;
+    margin-top: 1rem;
+    
+}
+
+.head-pallette_left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+
+}
+
+.head-pallette_left h1{
+    transform: scaleY(1.2);
+}
+
+.head-pallette_left h1 img{
+
+    vertical-align: middle;
+
+}
+
+.head-pallette_left h3{
+
+font-size: medium;
+font-weight: 500;
+color: rgb(82, 82, 128);
+transform: scaleY(1.20);
+line-height: -3rem;
+letter-spacing: 1px;
+justify-content: left;
+
+}
+
+.head-pallette_left_buttons{
+
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+    transform: scaleY(1.20);
+}
+
+.banner img{
+    max-height: 35px;
+    vertical-align: middle;
+}
+
+
+
+.head-pallette_left_buttons .btn-1{
+
+    text-decoration: none;
+    background-color: #ff7214;
+    padding: 8px 14px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    transform: scaleY(1.05);
+    letter-spacing: 2px;
+    transition: all 600ms ease-in-out;
+}
+
+
+.head-pallette_left_buttons .btn-1:hover{
+
+background-color: rgb(231, 0, 0);
+
+
+}
+
+.head-pallette_left_buttons span{
+
+    font-size: smaller;
+    border-radius: 1px;
+    background-color: rgb(17, 0, 173);
+    padding: 2px 3px;
+
+}
+
+
+
+
+
+
+@media  screen and (max-width:1020px) {
+
+    .head-pallette{
+
+align-items: center;
+    }
+
+ .head-pallette_left h1{
+
+    font-size: smaller;
+ }
+
+ .head-pallette_left h3{
+font-size: x-small;
+ }
+
+ 
+    
+.head-pallette_right img{
+width: 400px;
+height: 300px;
+
+}
+
+.head-pallette_left_buttons .btn-1{
+    font-size: smaller;
+    font-weight: 500;
+    padding: 6px 10px;
+}
+    
+}
+
+@media  screen and (max-width:600px) {
+
+    .head-pallette_right img{
+        width: 300px;
+        height: 200px;
+        
+        }
+        
+        .head-pallette_left_buttons .btn-1{
+            font-size: x-small;
+            font-weight: 400;
+            padding: 3px 10px;
+        }
+
+
+}
